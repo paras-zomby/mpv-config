@@ -47,7 +47,7 @@ function TopBar:decide_titles()
 	self.main_title = state.title ~= '' and state.title or nil
 
 	if (self.main_title == 'No file') then
-		self.main_title = t('No file')
+		self.main_title = ulang._border_title
 	end
 
 	-- Fall back to alt title if main is empty
