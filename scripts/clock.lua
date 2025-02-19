@@ -2,7 +2,7 @@ local mp = require "mp"
 local options = require "mp.options"
 
 local script_options = {
-    position = "bottom-right",
+    position = "top-right",
     size = 13,
     time_format = "%H:%M", -- details: https://www.lua.org/pil/22.1.html,
     show_end = true,
